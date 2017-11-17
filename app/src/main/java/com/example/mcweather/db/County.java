@@ -1,10 +1,12 @@
 package com.example.mcweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by 西安 on 2017/11/17.
  */
 
-public class County {
+public class County extends DataSupport {
 
     private int id;
     private String coutyName;
